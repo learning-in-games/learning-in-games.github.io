@@ -1,4 +1,4 @@
-<link href="style.css" rel="stylesheet"></link>
+{% include style.html %}
 
 # SUTD 40.616: Topics in Learning, Games, and Optimization
 
