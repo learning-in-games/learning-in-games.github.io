@@ -10,6 +10,8 @@ body {
 
 p {
     color: black;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 h2 {
