@@ -20,25 +20,35 @@
 </div>
 
 <h2>Course Description</h2>
-Graduate-level course on learning in games.
-More information coming soon...
+A Graduate-level theory course providing a modern
+treatment on <i>online learning</i> and <i>learning in games</i>.
+The course is centered on the online learning framework as
+a paradigm for sequential decision making with
+strategic and non-stationary environments. Particular attention
+will be devoted to showing how online learning dynamics
+lead to equilibria in multi-agent, game-theoretic settings.
 
 <br>
 <br>
-<img src="mwu-fig.png" text-align="center" style="width:95%; text-align: center">
+<br>
+<img src="ff-rps-fig.png" text-align="center" style="width:95%; text-align: center">
+<br>
 <br>
 <br>
 
-<b>Co-instructors</b>: Anas Barakat, John Lazarsfeld, Joseph Sakos. <br>
+<b>Co-instructors</b>:
+<a href="https://anasbarakat.github.io/">Anas Barakat</a>,
+<a href="https://jlazarsfeld.github.io">John Lazarsfeld</a>,
+<a href="https://www.sutd.edu.sg/profile/iosif-joseph-sakos/">Joseph Sakos</a>.
+<br>
 <b>Contact</b>: sutd.glo.course@gmail.com <br>
 <b>Time</b>: Tues/Thurs, 10am-12pm SGT <br>
-<b>Location</b>: TBD
+<b>Location</b>:
+<a href="https://maps.app.goo.gl/QQtqFbWd2fZ4aQnH7">SUTD Building 1</a>,
+  Think Tank 11-12 (1.503)
 
 <br><br>
-<i>
-  Please send an email for an access to a Zoom link
-  and lecture recordings.
-</i>
+<b><a href="SUTD 40.616 fall 2025 -- Syllabus.pdf">Syllabus PDF</a></b>
 
 <br><br>
 <h2>Schedule</h2>
@@ -52,84 +62,100 @@ More information coming soon...
 
 <ul>
   <li>
+
+    Lecture 01 -- 2025.09.16 <br>
     <span style="color: #002499">
-      Lecture 01: 
       Introduction to Online Learning
     </span>
-    -- (2025.09.16)
-    
+
+    <!-- <span style="color: #002499"> -->
+    <!--   Lecture 01:  -->
+    <!--   Introduction to Online Learning -->
+    <!-- </span> -->
+    <!-- -- (2025.09.16) -->
     <br>
     <p>
       Prediction with expert advice;
       online convex optimization;
       external regret;
-      Multiplicative Weights Update
-      and Online Gradient Descent algorithms. 
+      Online Gradient Descent algorithm
+      and regret bound.
     </p>
-    <a href=".">[notes pdf]</a>
+    <a href="lect01-notes.pdf">[notes pdf]</a>
   </li>
+
   <li>
+
+
+    Lecture 02 -- 2025.09.18 <br>
     <span style="color: #002499">
-    Lecture 02:
-    Algorithms for Online Learning, Part I
+      Follow-the-Regularized-Leader:
+      No-Regret via Regularization
     </span>
-    -- (2025.09.18)
+
     <br>
     <p>
-      Follow-the-Regularized-Leader family;
-      MWU as FTRL with entropic regularization;
-      Minimax lower bounds for online learning.
+      Family of leader-based algorithms,
+      analysis of Follow-the-Regularized-Leader (FTRL)
+      via coupling with Be-the-Leader/Follow-the-Leader, 
+      Multiplicative Weights Update as FTRL,
+      lower bounds for online learning.
     </p>
   </li>
+  
   <li>
+    Lecture 03 -- 2025.09.23 <br>
     <span style="color: #002499">
-      Lecture 03: 
-      Algorithms for Online Learning, Part II
+      Follow-the-Perturbed-Leader and
+      Online Mirror Descent: No-Regret via Perturbation and Penalty. 
     </span>
-    -- (2025.09.23)
+
     <br>
     <p>
-      Online Mirror Descent; Follow-the-Perturbed-Leader;
-      Beyond \sqrt{T} regret: strongly convex
-      and exp-concave losses.
+      Follow-the Perturbed-Leader (FTPL) analysis,
+      equivalence between FTPL and FTRL, Online Mirror Descent (OMD) analysis.
     </p>
   </li>
 
   <li>
+    Lecture 04 -- 2025.09.25 <br>
     <span style="color: #002499">
-      Lecture 04: 
       Online Learning with Bandit Feedback
     </span>
-    -- (2025.09.25)
+
     <br>
     <p>
-      Adversarial bandits and the EXP3 algorithm;
-      Stochastic bandits and the Explore-then-Commit
-      and UCB algorithms.
+      Bandit feedback model, expected regret and pseudo-regret,
+      EXP3 algorithm for adversarial bandits, Explore-the-Commit
+      and UCB algorithms for stochastic bandits. 
     </p>
     </i>
     
-  <li>
+    <li>
+      Lecture 05 -- 2025.09.30 <br>
     <span style="color: #002499">
-      Lecture 05: 
       Phi-Regret Minimization
     </span>
-    -- (2025.09.30)
     <br>
     <p>
       Beyond external regret:
       swap-regret, internal-regret, and the
-      Phi-Regret-minimization framework.
+      Phi-Regret framework.
+      Blum-Mansour and Stoltz-Lugosi algorithms.
     </p>
   </li>
-
+     
   <li>
+    Lecture 06 -- 2025.10.02 <br>
     <span style="color: #002499">
-      Lecture 06: 
       Blackwell Approachability and Regret Matching
     </span>
-    -- (2025.10.02)
+
     <br>
+    <p>
+      Blackwell's Approachability theorem,
+      Regret Matching (RM) and Regret Matching+ (RM+) algorithms.
+    </p>
   </li>
 </ul>
 
@@ -143,20 +169,83 @@ More information coming soon...
 
 <ul>
   <li>
+    Lecture 07 -- 2025.10.07 <br>
     <span style="color: #002499">
-      Lecture 07:
-      Introduction to Game Theory
+      Introduction to Normal-Form Games and Nash Equilibria
     </span>
-    -- (2025.10.07)
     <br>
-    <i>
-      Normal-Form Games, Nash Equilibria,
-      and Game Classes.
-    </i>
+    <p>
+      Normal-Form Games, Nash equilibria (NE),
+      game classes (potential, zero-sum, decomposition). 
+    </p>
+  </li>
+  
+  <li>
+    Lecture 08 -- 2025.10.09 <br>
+    <span style="color: #002499">
+      No-Regret Learning in Games and Learning
+      Nash Equilibria in Zero-Sum and Potential Games
+    </span>
+    <br>
+    <p>
+      Hindsight rationality, proof fo minimax theorem
+      via online learning, learning NEs in potential games. 
+    </p>
+  </li>
+
+    
+  <li>
+    Lecture 09 -- 2025.10.14 <br>
+    <span style="color: #002499">
+      Learning (Coarse)-Correlated Equilibria
+      in General-Sum Games
+    </span>
+    <br>
+    <p>
+      (Coarse)-correlated equilibria, time-average convergence
+      via no-phi-regret learning, average vs. last-iterate convergence. 
+    </p>
   </li>
 
   <li>
-    ...
+    Lecture 10 -- 2025.10.16 <br>
+    <span style="color: #002499">
+      Optimistic Learning and Social Welfare of No-Regret Dynamics
+    </span>
+
+    <br>
+    <p>
+      Optimistic FTRL algorithms, RVU bounds, individual vs. sum
+      of regrets, fast convergence of social welfare. 
+    </p>
+  </li>
+
+  <li>
+    Lecture 11 -- 2025.10.21 <br>
+    <span style="color: #002499">
+      Introduction to Stochastic Games and Multi-Agent
+      Reinforcement Learning
+    </span>
+
+    <br>
+    <p>
+      Introduction to Markov Decision Processes (MDPs)
+      and Reinforcement Learning, definition of stochastic games,
+      Shapley's minimax theorem, existence of Nash equilibria. 
+    </p>
+  </li>
+  
+  <li>
+    Lecture 12 -- 2025.10.23 <br>
+    <span style="color: #002499">
+      Learning Nash Equilibria in Stochastic Games
+    </span>
+
+    <br>
+    <p>
+      Independent and decentralized learning, zero-sum Markov games
+      and Markov potential games, policy gradient methods. 
+    </p>
   </li>
 
 </ul>
@@ -170,20 +259,75 @@ More information coming soon...
 </p>
 
 <ul>
+
   <li>
+    Lecture 13 -- 2025.11.06  <br>
     <span style="color: #002499">
-      Lecture 13:
       Introduction to Extensive-Form Games
     </span>
-    -- (2025.11.04)
+
     <br>
-    <i>
-    </i>
+    <p>
+      Game trees, imperfect information, perfect recall,
+      strategy representations, Kuhn's theorem. 
+    </p>
   </li>
 
   <li>
-    ...
+    Lecture 14 -- 2025.11.11  <br>
+    <span style="color: #002499">
+      Learning Equilibria in Extensive-Form Games
+    </span>
+
+    <br>
+    <p>
+      Counterfactual Regret Minimization algorithm (CFR)
+      and speedups. 
+    </p>
   </li>
+
+  <li>
+    Lecture 15 -- 2025.11.13  <br>
+    <span style="color: #002499">
+      Introduction to Continuous Games 
+    </span>
+
+    <br>
+    <p>
+      Concave games, Rosen's theorem, variational inequalities,
+      monotone games, zero-sum games and Gradient Descent Ascent (GDA),
+      divergence of GDA in bilinear case. 
+    </p>
+  </li>
+
+  <li>
+    Lecture 16 -- 2025.11.18  <br>
+    <span style="color: #002499">
+      Learning Equilibria in Continuous Games
+    </span>
+
+    <br>
+    <p>
+      Proximal point method, Optimistic GDA
+      and Extragradient algorithms for zero-sum games,
+      learning equilibria in potential games, general concave games.
+    </p>
+  </li>
+
+  
+  <li>
+    Lecture 17 -- 2025.11.20  <br>
+    <span style="color: #002499">
+      Price of Anarchy and Equilibrium Selection 
+    </span>
+
+    <br>
+    <p>
+      Braess' paradox, Pigou's network, smooth games,
+      introduction to Price of Anarchy (PoA) bounds.
+    </p>
+  </li>
+
   
 </ul>
 
